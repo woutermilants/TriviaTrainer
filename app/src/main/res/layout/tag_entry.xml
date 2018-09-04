@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newTagEntryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tags"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNewTagEntry"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="right"
+        app:srcCompat="@android:drawable/ic_input_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+</TableRow>

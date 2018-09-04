@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TriviaTrainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save_entry">Save</string>
+    <string name="action_delete_entry">Delete</string>
+    <string name="action_edit_entry">Edit</string>
+</resources>

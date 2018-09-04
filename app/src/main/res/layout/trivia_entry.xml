@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newTagEntryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:shrinkColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/subjectLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Subject : " />
+
+            <TextView
+                android:id="@+id/subjectValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLACEHOLDER" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mainCategoryLabell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Main category : " />
+
+            <TextView
+                android:id="@+id/mainCategoryValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLACEHOLDER" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/secondaryCategoryLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Secondary catalog : " />
+
+            <TextView
+                android:id="@+id/secondaryCategoryValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLACEHOLDER" />
+        </TableRow>
+
+        <RelativeLayout android:id="@+id/triviaEntryTagList">
+
+        </RelativeLayout>
+
+    </TableLayout>
+
+</TableRow>
